@@ -1,0 +1,52 @@
+
+footer {
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    padding: 0 10.5rem;
+
+    .footer-con{
+        width: 50%;
+        display: flex;
+        align-items: center;
+        .logo {
+            width: 40%;
+            align-items: center;
+            justify-content: flex-start;
+
+            img {
+                width: 148px;
+                cursor: pointer;
+            }
+
+            span{
+                cursor: pointer;
+                font-size: 1.6rem;
+            }
+
+            display: flex;
+            align-items: center;
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        .link{
+            font-family: 'Montserrat', sans-serif;
+            width: 30%;
+            font-weight: 300;
+            color: #222;
+
+            span{
+                cursor: pointer;
+            }
+        }
+    }
+
+    .copy-write{
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        color: gray;
+        font-size: 1rem;
+    }
+}
